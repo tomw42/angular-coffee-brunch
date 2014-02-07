@@ -24,9 +24,8 @@ Features:
 Most likely you have **Brunch** installed. In this case the approach is pretty straight forward:
 
 1. `brunch new https://github.com/tomw42/angular-coffee-brunch  myapp`
-*optional*
-2. `npm install`
-3. `bower install`
+2. `npm install` *optional*
+3. `bower install` *optional*
 
 After building the sources the first time it may happen that brunch throws an error concerning the bower support of Font-Awesome which is currently lacking a bower.json file. To fix this, edit the .bower.json file in the font-awesome directory in brunch_components like this:
 
