@@ -24,6 +24,7 @@ Features:
 Most likely you have **Brunch** installed. In this case the approach is pretty straight forward:
 
 1. `brunch new https://github.com/tomw42/angular-coffee-brunch  myapp`
+*optional*
 2. `npm install`
 3. `bower install`
 
@@ -46,4 +47,4 @@ After building the sources the first time it may happen that brunch throws an er
   "_originalSource": "font-awesome"
 }
 ```
-
+**note:** This is supposed to be fixed with font-awesome 4.0.4, a pull request is pending
