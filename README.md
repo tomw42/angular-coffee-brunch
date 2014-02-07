@@ -1,5 +1,5 @@
-### angular-coffee-brunch
-## A starter project for AngularJS using
+## angular-coffee-brunch
+### A starter project for AngularJS using:
 * [Brunch](http://brunch.io)
 * Coffeescript
 * [Stylus](http://learnboost.github.io/stylus/)
@@ -19,7 +19,7 @@ Features:
 * Integration of [font-awesome icons](http://fontawesome.io/)
 * Source map support
 
-## How to use angular-coffee-brunch
+### How to use angular-coffee-brunch
 
 Most likely you have **Brunch** installed. In this case the approach is pretty straight forward:
 
@@ -29,7 +29,7 @@ Most likely you have **Brunch** installed. In this case the approach is pretty s
 
 After building the sources the first time it may happen that brunch throws a an error concerning the bower support of Font-Awesome which is currently lacking a bower.json file. To fix this, edit the .bower.json file in the font-awesome directory in brunch_components like this:
 
-`
+```
 {
   "name": "font-awesome",
   "homepage": "https://github.com/FortAwesome/Font-Awesome",
@@ -45,5 +45,5 @@ After building the sources the first time it may happen that brunch throws a an 
   "_target": "4.0.3",
   "_originalSource": "font-awesome"
 }
-`
+```
 
